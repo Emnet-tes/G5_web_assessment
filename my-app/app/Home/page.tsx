@@ -27,7 +27,7 @@ export const Home = () => {
       <Title />
       <div className="px-20">
         {blogs.slice(0, 5).map((blog) => (
-          <Link href={`/blog/${blog._id}`} key={blog._id}>
+          <Link href={`/Blog/${blog._id}`} key={blog._id}>
             <Card
               image={blog.image}
               description={blog.description}
