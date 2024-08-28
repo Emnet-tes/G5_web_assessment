@@ -7,9 +7,15 @@ This project is a React-based web application that allows users to search throug
 ## Features
 
 - **Blog Fetching**: Fetches a list of blogs from an external API.
+  ![blogs](public/blog.png)
+    ![Required Fields](public/footer.png)
 - **Search Functionality**: Allows users to search blogs by title or description.
+  ![searching](public/search.png)
 - **Modal Display**: Search results are displayed in a modal, which can be opened and closed dynamically.
-
+  ![blog description](public/images/des.png)
+![blog description](public/images/des2.png)
+![blog description](public/images/des3.png)
+<!-- jhdjhs -->
 ## Technologies Used
 
 - **React**: JavaScript library for building user interfaces.
