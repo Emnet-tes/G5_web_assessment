@@ -47,7 +47,7 @@ export const Blog = () => {
           short period of time.
         </p>
         {data.map((item, index) => (
-          <p key={index}className="font-sans text-gray-400">{item}</p>
+          <p key={index} className="font-sans text-gray-400">{item}</p>
         ))}
       </div>
       <h4 className="font-semibold font-sans text-lg">Related Blogs</h4>
