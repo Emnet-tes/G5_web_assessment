@@ -1,27 +1,24 @@
-
-
 import Link from "next/link";
-
-import { Blog, getBlogs, relatedBlogs } from "../lib/api";
-import { Title } from "./components/Title";
-import { Card } from "./components/Card";
+import { Title } from "./Title";
+import { relatedBlogs } from "@/app/lib/api";
+import { Card } from "./Card";
 
 
 export const Home = () => {
-//   const [blogs, setblogs] = useState<Blog[]>([]);
-//   useEffect(() => {
-//     const fetchBlogs = async () => {
-//       try {
-//         const data = await getBlogs();
-//         setblogs(data);
-//       } catch (error) {
-//         console.error("Error fetching blogs:", error);
-//         throw error;
-//       }
-//     };
+  //   const [blogs, setblogs] = useState<Blog[]>([]);
+  //   useEffect(() => {
+  //     const fetchBlogs = async () => {
+  //       try {
+  //         const data = await getBlogs();
+  //         setblogs(data);
+  //       } catch (error) {
+  //         console.error("Error fetching blogs:", error);
+  //         throw error;
+  //       }
+  //     };
 
-//     fetchBlogs();
-//   }, []);
+  //     fetchBlogs();
+  //   }, []);
 
   return (
     <main className="min-h-screen  items-center  space-y-5 p-20 pt-8 ">

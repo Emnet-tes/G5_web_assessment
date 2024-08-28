@@ -1,12 +1,12 @@
 import React from 'react'
 import { Blog } from '../componets/Blog';
 
-const page = () => {
+const Page = () => {
   return (
    <Blog/>
   );
 }
 
-export default page;
+export default Page;
 
 
