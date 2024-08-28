@@ -1,4 +1,4 @@
-import { inter } from '@/app/layout';
+
 import Image from 'next/image';
 import React from 'react'
 import { Card } from './card';
