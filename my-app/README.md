@@ -30,4 +30,5 @@ This project is a React-based web application that allows users to search throug
 - **Node.js**: Ensure that Node.js is installed on your system.
 - **npm or yarn**: Package manager to install dependencies.
 
-
+## deployed at vercel
+[page link](https://g5-web-assessment-theta.vercel.app/)
